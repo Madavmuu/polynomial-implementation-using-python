@@ -1,0 +1,21 @@
+import java.util.*;
+public class Y{
+public static void main(String[] args){
+ArrayList<String> al=new ArrayList<>();
+al.add("madav");
+al.add("parves");
+al.add("hari");
+System.out.println("Array:"+al);
+System.out.println("Size of array:"+al.size());
+System.out.println("Element 2 using get function:"+al.get(1));
+al.set(1,"parves");
+System.out.println("Updated array using set:"+al);
+al.remove(2);
+System.out.print("again updated array after remove:"+al);
+}}
+Output:
+Array:[madav, parves, hari]
+Size of array:3
+Element 2 using get function:parves
+Updated array using set:[madav, parves, hari]
+again updated array after remove:[madav, Hari]
